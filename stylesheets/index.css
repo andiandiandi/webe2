@@ -4,8 +4,8 @@
 .column_20{
 	width:20%;
 }
-.column_22{
-	width:22%;
+.column_24{
+	width:24%;
 }
 .column_30{
 	width:30%;
@@ -48,6 +48,17 @@ header{
 	margin-left: 5%;
 	margin-right: 5%;
 	color:#FFF;
+}
+a{
+	color:#FFF;
+	text-decoration: none;
+}
+a:hover{
+	opacity: 0.5;
+}
+.page_heading{
+	color:#FFF;
+	font-size:300%;
 }
 .nav_div{
 	padding-left: 5%;
@@ -131,13 +142,14 @@ vertical-align:text-center;
 	width:100%;
 	background-color: #1F2124;
 	color:#FFF;
+	text-align: center;
 }
 .blog_content{
-	margin-top:1%;
+	margin-top:2%;
 	background-color: #2F3238;
 	color:#E1E7F2;
 	max-height: 100%;
-  overflow: auto;
+  	overflow: auto;
 }
 .blog_post{
 	padding:15px;
@@ -150,19 +162,35 @@ vertical-align:text-center;
 .blog_post_content{
 	margin-top:2%;
 }
+.posttime{
+	margin-top: 3%;
+	text-align: right;
+}
+.aside_img{
+	margin-bottom: 5%;
+}
 .aside_content{
 	padding: 5px;
 	background-color: #2F3238;
 	color:#E1E7F2;
 }
-.content{
+.content_no_top{
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-bottom: 1%;
+}
+.content_top{
 	padding:1%;
 }
 .aside_left{
+	margin-top: 2%;
+	margin-bottom: 1%;
 	max-height: 100%;
-  overflow: auto;
+  	overflow: auto;
 }
 .aside_right{
+	margin-top: 1%;
+	margin-bottom: 1%;
 	max-height: 100%;
 	overflow: auto;
 }
